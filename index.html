@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francisco Neto — Analista de Monitoramento & Dev Back-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+
+<nav>
+  <div class="nav-logo">FN<span style="color:#fff">_</span>DEV</div>
+  <ul class="nav-links">
+    <li><a href="#about">//sobre</a></li>
+    <li><a href="#skills">//skills</a></li>
+    <li><a href="#experience">//experiência</a></li>
+    <li><a href="#certifications">//certs</a></li>
+    <li><a href="#contact">//contato</a></li>
+  </ul>
+  <div class="nav-status"><span class="status-dot"></span>DISPONÍVEL</div>
+</nav>
+
+<section id="hero">
+  <p class="hero-eyebrow">// MONITORAMENTO · OBSERVABILIDADE · BACK-END</p>
+  <h1 class="hero-name">Francisco<br><span>Neto</span></h1>
+  <p class="hero-tagline">&gt; Monitoramento · Automação · Infraestrutura · Backend</p>
+  <p class="hero-desc">
+    Especialista em monitoramento com Zabbix e Grafana, desenvolvimento
+    backend em Node.js e automação com Shell Script e Python.
+    Transformo dados em decisões e infraestruturas em soluções.
+  </p>
+  <div class="hero-ctas">
+    <a href="#skills" class="btn-primary">VER HABILIDADES</a>
+    <a href="#contact" class="btn-secondary">ENTRAR EM CONTATO</a>
+  </div>
+  <div class="hero-terminal">
+    <div class="terminal-bar">
+      <div class="t-dot r"></div><div class="t-dot y"></div><div class="t-dot g"></div>
+      <span class="terminal-title">francisco@devops ~ $</span>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+      <div><span class="t-prompt">$ </span><span id="typing"></span><span class="t-cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <p class="sec-label reveal">// 01 — SOBRE MIM</p>
+  <h2 class="sec-title reveal">Quem sou eu</h2>
+  <div class="sec-line reveal"></div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>Profissional especializado em <strong style="color:var(--cyan)">monitoramento, administração de sistemas e desenvolvimento back-end</strong>, com experiência em ambientes críticos e de alta disponibilidade.</p>
+      <p>Utilizo <strong style="color:var(--green)">Zabbix</strong> e <strong style="color:var(--green)">Grafana</strong> para garantir visibilidade contínua de infraestruturas, análise em tempo real e soluções proativas de performance.</p>
+      <p>No desenvolvimento, aplico <strong style="color:var(--orange)">Node.js / Express</strong> para APIs e integração de chatbots WhatsApp, além de <strong style="color:var(--orange)">Shell Script</strong> para automações em sistemas Linux.</p>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat-card"><div class="stat-num" data-count="10">0</div><div class="stat-label">Anos de experiência</div></div>
+      <div class="stat-card"><div class="stat-num" data-count="4">0</div><div class="stat-label">Empresas atuadas</div></div>
+      <div class="stat-card"><div class="stat-num" data-count="99">0</div><div class="stat-label">% Uptime alcançado</div></div>
+      <div class="stat-card"><div class="stat-num" data-count="6">0</div><div class="stat-label">Anos com Zabbix</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <p class="sec-label reveal">// 02 — TECNOLOGIAS</p>
+  <h2 class="sec-title reveal">Stack &amp; Habilidades</h2>
+  <div class="sec-line reveal"></div>
+  <div class="skills-grid reveal">
+
+    <div class="skill-card" style="--card-color: var(--red)">
+      <div class="skill-icon">🔴</div>
+      <div class="skill-name">ZABBIX</div>
+      <div class="skill-desc">Monitoramento proativo de infraestrutura: servidores, redes, serviços e aplicações. Configuração de triggers, alertas e dashboards customizados para SLAs críticos.</div>
+      <div class="skill-tags"><span class="tag">Monitoramento</span><span class="tag">SNMP</span><span class="tag">Templates</span><span class="tag">Alertas</span><span class="tag">API Zabbix</span></div>
+      <div class="bar-list" style="margin-top:1.2rem">
+        <div class="bar-item"><div class="bar-header"><span>Configuração de Hosts</span><span style="color:var(--red)">95%</span></div><div class="bar-track"><div class="bar-fill" data-w="95" style="background:var(--red)"></div></div></div>
+        <div class="bar-item"><div class="bar-header"><span>Criação de Templates</span><span style="color:var(--red)">88%</span></div><div class="bar-track"><div class="bar-fill" data-w="88" style="background:var(--red)"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--card-color: var(--orange)">
+      <div class="skill-icon">📊</div>
+      <div class="skill-name">GRAFANA</div>
+      <div class="skill-desc">Criação de dashboards poderosos e visualizações em tempo real. Integração com Prometheus, InfluxDB, Loki e múltiplas fontes de dados.</div>
+      <div class="skill-tags"><span class="tag">Dashboards</span><span class="tag">Prometheus</span><span class="tag">InfluxDB</span><span class="tag">Alerting</span><span class="tag">Loki</span></div>
+      <div class="bar-list" style="margin-top:1.2rem">
+        <div class="bar-item"><div class="bar-header"><span>Dashboard Design</span><span style="color:var(--orange)">92%</span></div><div class="bar-track"><div class="bar-fill" data-w="92" style="background:var(--orange)"></div></div></div>
+        <div class="bar-item"><div class="bar-header"><span>Data Sources</span><span style="color:var(--orange)">85%</span></div><div class="bar-track"><div class="bar-fill" data-w="85" style="background:var(--orange)"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--card-color: var(--green)">
+      <div class="skill-icon">🟢</div>
+      <div class="skill-name">NODE.JS BACKEND</div>
+      <div class="skill-desc">Desenvolvimento de APIs RESTful e microsserviços escaláveis. Integração com bancos de dados relacionais e NoSQL, autenticação JWT, filas de mensagens.</div>
+      <div class="skill-tags"><span class="tag">Express</span><span class="tag">Fastify</span><span class="tag">REST API</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span><span class="tag">Docker</span></div>
+      <div class="bar-list" style="margin-top:1.2rem">
+        <div class="bar-item"><div class="bar-header"><span>API Development</span><span style="color:var(--green)">90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90" style="background:var(--green)"></div></div></div>
+        <div class="bar-item"><div class="bar-header"><span>Arquitetura</span><span style="color:var(--green)">82%</span></div><div class="bar-track"><div class="bar-fill" data-w="82" style="background:var(--green)"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--card-color: var(--cyan)">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">AUTOMAÇÃO PYTHON</div>
+      <div class="skill-desc">Scripts de automação para coleta de dados, relatórios automatizados, integração de sistemas via APIs e pipelines de processamento de dados.</div>
+      <div class="skill-tags"><span class="tag">Selenium</span><span class="tag">Requests</span><span class="tag">Pandas</span><span class="tag">FastAPI</span><span class="tag">Cron Jobs</span><span class="tag">Airflow</span></div>
+      <div class="bar-list" style="margin-top:1.2rem">
+        <div class="bar-item"><div class="bar-header"><span>Automação &amp; Scripts</span><span style="color:var(--cyan)">93%</span></div><div class="bar-track"><div class="bar-fill" data-w="93"></div></div></div>
+        <div class="bar-item"><div class="bar-header"><span>Integração de APIs</span><span style="color:var(--cyan)">87%</span></div><div class="bar-track"><div class="bar-fill" data-w="87"></div></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="experience">
+  <p class="sec-label reveal">// 03 — EXPERIÊNCIA</p>
+  <h2 class="sec-title reveal">Linha do Tempo</h2>
+  <div class="sec-line reveal"></div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">SET 2024 — ATUAL</div>
+      <div class="tl-role">Analista de Monitoramento</div>
+      <div class="tl-company">// Flowbix — São Luís, MA</div>
+      <div class="tl-desc">Monitoramento e administração de infraestruturas críticas com Zabbix e Grafana. Garantia de alta disponibilidade, criação de dashboards interativos e implementação de alertas proativos para otimização contínua de desempenho.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">SET 2021 — JUN 2024</div>
+      <div class="tl-role">Desenvolvedor Back-End</div>
+      <div class="tl-company">// Vubis Tecnologia — São Luís, MA</div>
+      <div class="tl-desc">Desenvolvimento back-end com Node.js, Express e JWT. Criação de scripts JS para integração em fluxos de chatbots WhatsApp e scripts Shell Script para automações em sistemas Linux e monitoramento Zabbix.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">JAN 2020 — AGO 2024</div>
+      <div class="tl-role">Especialista em Monitoramento</div>
+      <div class="tl-company">// Dr. Suporti — São Luís, MA</div>
+      <div class="tl-desc">Monitoramento de ativos com Zabbix, criação de dashboards no Grafana, análise de dados em tempo real e implementação de soluções proativas para otimização de desempenho e disponibilidade de infraestruturas.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">SET 2019 — SET 2020</div>
+      <div class="tl-role">Analista de Suporte de TI</div>
+      <div class="tl-company">// Dr. Suporti — São Luís, MA</div>
+      <div class="tl-desc">Suporte técnico de alta qualidade, diagnósticos precisos e resolução eficiente de problemas de usuários. Atendimento ao cliente com foco em satisfação e disponibilidade dos sistemas.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">JUL 2014 — JUL 2015</div>
+      <div class="tl-role">Aprendiz de TI</div>
+      <div class="tl-company">// MARCOPOL SL — São Luís, MA</div>
+      <div class="tl-desc">Jovem Aprendiz com passagem por diversos setores da empresa. Destaque no setor de TI, onde desenvolvi habilidades em suporte técnico, resolução de problemas e gerenciamento de sistemas.</div>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <p class="sec-label reveal">// 04 — CERTIFICAÇÕES</p>
+  <h2 class="sec-title reveal">Cursos &amp; Certificados</h2>
+  <div class="sec-line reveal"></div>
+  <div class="certs-grid reveal">
+    <div class="cert-card"><div class="cert-badge">🔴</div><div class="cert-info"><div class="cert-name">Zabbix Advanced Monitoring</div><div class="cert-issuer">// MONITORAMENTO DE INFRAESTRUTURA EM NÍVEL AVANÇADO</div><div class="cert-year">2024</div></div></div>
+    <div class="cert-card"><div class="cert-badge">⚡</div><div class="cert-info"><div class="cert-name">JavaScript / TypeScript</div><div class="cert-issuer">// TIPAGEM, ESTRUTURAS DE DADOS E LÓGICA DE RUNTIME</div><div class="cert-year">2024</div></div></div>
+    <div class="cert-card"><div class="cert-badge">🎓</div><div class="cert-info"><div class="cert-name">Análise e Desenvolvimento de Sistemas</div><div class="cert-issuer">// BACHARELADO TÉCNICO · ANHANGUERA EDUCACIONAL</div><div class="cert-year">2024 — 2026</div></div></div>
+  </div>
+</section>
+
+<section id="contact">
+  <p class="sec-label reveal">// 05 — CONTATO</p>
+  <h2 class="sec-title reveal">Vamos conversar</h2>
+  <div class="sec-line reveal"></div>
+  <div class="contact-grid">
+    <div class="reveal">
+      <p style="color:var(--text-dim);line-height:1.8;margin-bottom:1.5rem">Estou aberto a novas oportunidades, projetos freelance e consultorias em monitoramento, automação e backend. Entre em contato!</p>
+      <div class="contact-links">
+        <a href="mailto:francgpneto@gmail.com" class="contact-link"><span class="contact-icon">✉</span><span><span class="__cf_email__" data-cfemail="deb8acbfb0bdb7adbdb19ebbb3bfb7b2f0bdb1b3">francgpneto@gmail.com</span></span></a>
+        <a href="https://linkedin.com/in/netofranc" target="_blank" class="contact-link"><span class="contact-icon">🔗</span><span>linkedin.com/in/netofranc</span></a>
+        <a href="https://github.com/tionxszero" target="_blank" class="contact-link"><span class="contact-icon">⌥</span><span>github.com/tionxszero</span></a>
+      </div>
+    </div>
+    <div class="reveal" style="background:var(--bg3);border:1px solid var(--border);padding:2rem;font-family:'Share Tech Mono',monospace;font-size:.82rem">
+      <div style="color:var(--cyan);margin-bottom:1rem"># STATUS DO SISTEMA</div>
+      <div style="display:flex;flex-direction:column;gap:.6rem">
+        <div style="display:flex;justify-content:space-between"><span style="color:var(--text-dim)">DISPONIBILIDADE</span><span style="color:var(--green)">● ONLINE</span></div>
+        <div style="display:flex;justify-content:space-between"><span style="color:var(--text-dim)">LOCALIZAÇÃO</span><span>São Luís, MA — BR</span></div>
+        <div style="display:flex;justify-content:space-between"><span style="color:var(--text-dim)">MODALIDADE</span><span>Remoto / Híbrido</span></div>
+        <div style="display:flex;justify-content:space-between"><span style="color:var(--text-dim)">RESPOSTA</span><span style="color:var(--cyan)">&lt; 24h</span></div>
+        <div style="height:1px;background:var(--border);margin:.4rem 0"></div>
+        <div style="color:var(--text-dim)">STACK PRIMÁRIA:</div>
+        <div style="color:var(--green);padding-left:1rem">→ Zabbix / Grafana<br>→ Node.js / Express / JWT<br>→ Shell Script / Linux<br>→ Chatbot WhatsApp / JS</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><span>&lt;</span> Desenvolvido por Francisco Neto <span>/&gt;</span> — 2025</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // Glitch on hover via JS (avoids animation override bug)
+  const heroName = document.querySelector('.hero-name');
+  // Lock element in place after fadeUp finishes, so removing .glitching never re-triggers the animation
+  setTimeout(() => heroName.classList.add('loaded'), 1300);
+  const heroTerminal = document.querySelector('.hero-terminal');
+  if (heroTerminal) setTimeout(() => heroTerminal.style.pointerEvents = 'auto', 1300);
+  heroName.addEventListener('mouseenter', () => heroName.classList.add('glitching'));
+  heroName.addEventListener('mouseleave', () => heroName.classList.remove('glitching'));
+
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => { cursor.style.left = e.clientX+'px'; cursor.style.top = e.clientY+'px'; });
+  document.addEventListener('mousedown', () => cursor.classList.add('click'));
+  document.addEventListener('mouseup', () => cursor.classList.remove('click'));
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (!en.isIntersecting) return;
+      en.target.classList.add('visible');
+      en.target.querySelectorAll('[data-count]').forEach(animCount);
+      en.target.querySelectorAll('.bar-fill').forEach(b => b.style.width = b.dataset.w + '%');
+    });
+  }, { threshold: .15 });
+  document.querySelectorAll('.reveal, .tl-item').forEach(el => obs.observe(el));
+
+  document.querySelectorAll('.skill-card').forEach(el => {
+    const io = new IntersectionObserver(entries => {
+      if (!entries[0].isIntersecting) return;
+      el.querySelectorAll('.bar-fill').forEach(b => b.style.width = b.dataset.w + '%');
+      io.disconnect();
+    }, { threshold: .3 });
+    io.observe(el);
+  });
+
+  function animCount(el) {
+    const target = +el.dataset.count;
+    let cur = 0;
+    const step = Math.ceil(target / 40);
+    const t = setInterval(() => {
+      cur = Math.min(cur + step, target);
+      el.textContent = cur + (target === 99 ? '%' : '+');
+      if (cur >= target) clearInterval(t);
+    }, 30);
+  }
+
+  const lines = [
+    { cmd: 'whoami',          out: 'francisco_neto — DevOps Engineer' },
+    { cmd: 'skills --list',   out: 'zabbix  grafana  nodejs  python  automation' },
+    { cmd: 'uptime --check',  out: '99.9%  |  Systems Nominal  ✓' },
+    { cmd: 'contact --email', out: 'francisco@email.com' },
+  ];
+  let li = 0, ci = 0;
+  const tbody = document.getElementById('terminal-body');
+
+  function typeNext() {
+    if (li >= lines.length) { li = 0; tbody.innerHTML = ''; }
+    const line = lines[li];
+    if (ci === 0) {
+      tbody.innerHTML += `<div><span class="t-prompt">$ </span><span id="typing"></span><span class="t-cursor"></span></div>`;
+    }
+    const el = tbody.querySelector('#typing');
+    if (ci < line.cmd.length) {
+      el.textContent += line.cmd[ci++];
+      setTimeout(typeNext, 80);
+    } else {
+      tbody.querySelector('.t-cursor')?.remove();
+      tbody.innerHTML += `<div class="t-out">${line.out}</div><div>&nbsp;</div>`;
+      li++; ci = 0;
+      setTimeout(typeNext, 1000);
+    }
+  }
+  setTimeout(typeNext, 1800);
+</script>
+</body>
+</html>
